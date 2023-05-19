@@ -1,0 +1,49 @@
+{
+  "heroes": [
+    {
+      "name": "Аквамен",
+      "description": "Тільки річковий",
+      "element": "water",
+      "id": "e56832a5-a43b-4cb1-a7ce-950644a5a7e1"
+    },
+    {
+      "name": "Фаєрмен",
+      "description": "Той, що з фантастичної четвірки",
+      "id": "7d458e64-afbe-4ffd-8aaf-89b791d8ef0c",
+      "element": "fire"
+    },
+    {
+      "name": "Вітролом",
+      "description": "Граюся з вітровими корозіями",
+      "id": "554b83d9-56b1-48ac-964a-c9cd96453bd5",
+      "element": "wind"
+    }
+  ],
+  "filters": [
+    {
+      "name": "all",
+      "label": "Всі",
+      "className": "btn-outline-dark"
+    },
+    {
+      "name": "fire",
+      "label": "Вогонь",
+      "className": "btn-danger"
+    },
+    {
+      "name": "water",
+      "label": "Вода",
+      "className": "btn-primary"
+    },
+    {
+      "name": "wind",
+      "label": "Вітер",
+      "className": "btn-success"
+    },
+    {
+      "name": "earth",
+      "label": "Земля",
+      "className": "btn-secondary"
+    }
+  ]
+}
