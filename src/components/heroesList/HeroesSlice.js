@@ -14,7 +14,7 @@ export const fetchHeroes = createAsyncThunk(
     () => {
 
         const {request} = useHttp();    
-        return request("http://localhost:3001/heroes")
+        return request("https://ash-gregarious-earth.glitch.me/heroes")
     }
 )
 

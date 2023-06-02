@@ -11,7 +11,7 @@ const HeroesFilters = () => {
     const {request} = useHttp();
 
     useEffect(() => {
-        request('http://localhost:3001/heroes')
+        request('https://ash-gregarious-earth.glitch.me/heroes')
             .then(res => {
                 dispatch(fetchHeroes(res.filter(item => filter === 'all' ? item : item.element === filter)))
             })

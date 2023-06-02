@@ -43,7 +43,7 @@ const HeroesList = () => {
 
     const onDeleteHero = (id) => {
         dispatch(heroesDeleting(id))
-        request(`http://localhost:3001/heroes/${id}`, 'DELETE')
+        request(`https://ash-gregarious-earth.glitch.me/heroes/${id}`, 'DELETE')
     }
 
     

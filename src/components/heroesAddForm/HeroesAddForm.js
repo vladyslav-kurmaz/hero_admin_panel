@@ -30,7 +30,7 @@ const HeroesAddForm = () => {
     const createHero = (e) => {
         e.preventDefault();
 
-        request('http://localhost:3001/heroes', 'POST', JSON.stringify(infoForm))
+        request('https://ash-gregarious-earth.glitch.me/heroes', 'POST', JSON.stringify(infoForm))
             .then(res => console.log(`
                \\ /  __   __
                 |  |__  |__
