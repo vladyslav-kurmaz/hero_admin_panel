@@ -1,4 +1,5 @@
 import { Transition } from 'react-transition-group';
+import heroImg from '../../assets/unknown-hero.jpg'
 
 const HeroesListItem = (props) => {
 
@@ -42,7 +43,7 @@ const HeroesListItem = (props) => {
                 <li 
                     style={{...defaultStyle, ...transitionStyles[state]}}
                     className={`card flex-row mb-4 shadow-lg text-white ${elementClassName}`}>
-                    <img src="http://www.stpaulsteinbach.org/wp-content/uploads/2014/09/unknown-hero.jpg" 
+                    <img src={heroImg} 
                         className="img-fluid w-25 d-inline" 
                         alt="unknown hero" 
                         style={{'objectFit': 'cover'}}/>
